@@ -120,6 +120,7 @@ a.button {
     if the user is on a wide display
     */
     display: grid;
+    grid-template-columns: repeat(auto-fill, min(400px, 95vw));
     grid-gap: 10px;
     justify-content: center;
     margin-top: 10vh;
