@@ -1,147 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
 
 .content {
-    margin-top: 7%;
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;
-    color: white;
-    font-size: 25px;
+	margin-top: 7%;
+	font-family: "Montserrat", sans-serif;
+	text-align: left;
+	color: white;
+	font-size: 25px;
 }
 
 #heading {
-    text-align: center;
-    color: white;
-    font-size: 50px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
 }
 
-.logos {  
-    margin-top: 5%;
-    text-align: center;
+.logos {
+	margin-top: 5%;
+	text-align: center;
 }
 
 body {
-    font-family: 'Montserrat', 'Helvetica-Neue', sans-serif;
-    background-color: #0c3078;
+	font-family: "Montserrat", "Helvetica-Neue", sans-serif;
+	background-color: #1e3458;
 }
 
 a.button {
-    color: white;
-    background-color: black;
-    font-size: 25px;
-    appearance: button;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border-radius: 7px;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    background-color: #517ed0;
-    margin-left: 3px;
-    margin-right: 3px;
+	color: white;
+	background-color: black;
+	font-size: 25px;
+	appearance: button;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-radius: 7px;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	background-color: #517ed0;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
 /* Chiroyce logo */
 
 #heading-logo {
-    margin-bottom: 5%;
-    cursor: pointer;
-    transform: scale(1.0);
-    transition: transform 0.4s;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 270px;
-    height: auto;
+	margin-bottom: 5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: transform 0.4s;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 270px;
+	height: auto;
 }
 
 #heading-logo:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
-
-/* GitHub/Scratch/Replit logo below */
+/* GitHub/Replit logo below */
 
 #github {
-    transform: scale(1.1);
-    width: 60px;
-    height: auto;
-    margin-right: 10px;
-    transition: transform 0.4s;
-    vertical-align: middle;
+	transform: scale(1.1);
+	width: 60px;
+	height: auto;
+	margin-right: 10px;
+	transition: transform 0.4s;
+	vertical-align: middle;
 }
 
 #github:hover {
-    transform: scale(1.3);
-    height: auto;
-    vertical-align: middle;
-}
-
-#scratch {
-    transform: scale(1.1, 1.1);
-    width: 40px;
-    height: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    transition: transform 0.4s;
-    vertical-align: middle;
-}
-
-#scratch:hover {
-    transform: scale(1.3, 1.3);
-    height: auto;
-    vertical-align: middle;
-
+	transform: scale(1.3);
+	height: auto;
+	vertical-align: middle;
 }
 
 #replit {
-    transform: scale(1.1, 1.1);
-    width: 65px;
-    height: auto;
-    margin-left: 10px;
-    transition: transform 0.4s;
-    vertical-align: middle;
+	transform: scale(1.1, 1.1);
+	width: 65px;
+	height: auto;
+	margin-left: 10px;
+	transition: transform 0.4s;
+	vertical-align: middle;
 }
 
 #replit:hover {
-    transform: scale(1.3, 1.3);
-    height: auto;
-    vertical-align: middle;
+	transform: scale(1.3, 1.3);
+	height: auto;
+	vertical-align: middle;
 }
 
 /* GitHub repository stuff below */
 
 .repos {
-    /*
-    Repos are currently displayed in a grid div
-    TODO: display a minumim of 3 items per column
-    if the user is on a wide display
-    */
-    display: grid;
-    grid-template-columns: repeat(auto-fill, min(400px, 95vw));
-    grid-gap: 10px;
-    justify-content: center;
-    margin-top: 10vh;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, min(400px, 95vw));
+	grid-gap: 10px;
+	justify-content: center;
+	margin-top: 10vh;
 }
 
 .repo {
-    /* 
+	/* 
     one repo should at max only fill up 95% 
     of the width of the entire screen 
     */
-    max-width: 95vw;
-    transition: transform 0.3s;
+	width: auto;
+	max-width: 95vw;
+	transition: transform 0.3s;
 }
 
 .repo:hover {
-    transform: scale(1.05);
+	transform: scale(1.03);
 }
 
 .loading {
-    margin-top: 10vh;
-    text-align: center;
-    font-size: 2.5em;
-    color: white;
+	margin-top: 10vh;
+	text-align: center;
+	font-size: 2.5em;
+	color: white;
 }
